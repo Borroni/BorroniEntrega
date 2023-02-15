@@ -1,0 +1,34 @@
+/*galeria*/
+.hero {
+	width: 100%;
+	height: calc(100vh - 5rem);
+	position: relative;
+	display: inline-block;
+	.text1 {
+		margin-bottom: 1rem;
+		font-size: 3.8rem;
+		font-weight: 500;
+	}
+}
+.introGaleria {
+	height: 8rem;
+	display: flex;
+	justify-content: center;
+	border: 1px solid white;
+	margin-bottom: 3rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-top: 45px;
+}
+.imagenGaleria {
+	border-radius: 30px;
+	padding: 1rem;
+	max-width: 100%;
+	height: auto;
+	filter: grayscale(40%);
+	transition: all 0.3s;
+	&:hover {
+		filter: grayscale(0%);
+		transform: scale(1.1);
+	}
+}

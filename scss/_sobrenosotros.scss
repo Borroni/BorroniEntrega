@@ -1,0 +1,109 @@
+/*sobre nosotros*/
+@-webkit-keyframes img-animacion {
+	0% {
+		-webkit-transform: translateX(-1000px) rotate(-720deg);
+		transform: translateX(-1000px) rotate(-720deg);
+		-webkit-filter: blur(50px);
+		filter: blur(50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateX(0) rotate(0deg);
+		transform: translateX(0) rotate(0deg);
+		-webkit-filter: blur(0);
+		filter: blur(0);
+		opacity: 1;
+	}
+}
+@keyframes img-animacion {
+	0% {
+		-webkit-transform: translateX(-1000px) rotate(-720deg);
+		transform: translateX(-1000px) rotate(-720deg);
+		-webkit-filter: blur(50px);
+		filter: blur(50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateX(0) rotate(0deg);
+		transform: translateX(0) rotate(0deg);
+		-webkit-filter: blur(0);
+		filter: blur(0);
+		opacity: 1;
+	}
+}
+@-webkit-keyframes position-img {
+	0% {
+		-webkit-transform: translateX(50px) translateY(-50px);
+		transform: translateX(50px) translateY(-50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateX(0) translateY(0);
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes position-img {
+	0% {
+		-webkit-transform: translateX(50px) translateY(-50px);
+		transform: translateX(50px) translateY(-50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateX(0) translateY(0);
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+.img-animacion {
+	-webkit-animation: rimg-animacion 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+	animation: img-animacion 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+.img-sobre-nosotros {
+	width: 300px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 19%;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	box-shadow: 0 4px 4px 0;
+}
+.card-class {
+	margin-top: 30px;
+	margin-left: 350px;
+	margin-right: 70px;
+	width: 400px;
+	background-color: $background-color_3;
+	box-shadow: 3px 3px 3px 3px;
+	text-align: center;
+	font-size: 16px;
+}
+.card-title {
+	color: $color_4;
+	font-family: $font-family_3;
+}
+.card-text {
+	color: $color_4;
+	font-family: $font-family_3;
+}
+.card-title-arriba {
+	color: $color_5;
+	font-family: $font-family_3;
+	font-size: 55px;
+}
+.card-text-arriba {
+	color: $color_6;
+	font-family: $font-family_3;
+}
+.position-img {
+	width: 100px;
+	height: 100px;
+	margin-top: -80px;
+	margin-left: 20px;
+	border-radius: 5px;
+	-webkit-animation: position-img 1s cubic-bezier(0.39, 0.575, 0.565, 1) 2s infinite alternate-reverse backwards;
+	animation: position-img 1s cubic-bezier(0.39, 0.575, 0.565, 1) 2s infinite alternate-reverse backwards;
+}
+.position-tex-card {
+	margin-top: -100px;
+}

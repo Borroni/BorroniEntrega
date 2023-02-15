@@ -1,0 +1,87 @@
+@-webkit-keyframes color-change-5x {
+	0% {
+		background: #19dcea;
+	}
+	25% {
+		background: #b22cff;
+	}
+	50% {
+		background: #ea2222;
+	}
+	75% {
+		background: #f5be10;
+	}
+	100% {
+		background: #3bd80d;
+	}
+}
+@keyframes color-change-5x {
+	0% {
+		background: #19dcea;
+	}
+	25% {
+		background: #b22cff;
+	}
+	50% {
+		background: #ea2222;
+	}
+	75% {
+		background: #f5be10;
+	}
+	100% {
+		background: #3bd80d;
+	}
+}
+*reservar {
+	turno* {
+		.form {
+			width: 300px;
+			margin: auto;
+			padding: 20px;
+			text-align: center;
+			background-color: $background-color_5;
+			border-radius: 3px;
+			color: $color_3;
+			font-size: 15px;
+		}
+	}
+}
+.text-rt {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: $color_3;
+	color: $color_3;
+}
+.posicion-form {
+	background: linear-gradient(to bottom right, #16222a, #3a6073);
+	background-size: 20px 20px;
+	padding: 80px 80px;
+}
+.titu-mapa {
+	background-color: $background-color_5;
+	color: $color_3;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.colorBtn {
+	background-color: $background-color_6;
+	color: $color_1;
+	font-size: 20px;
+	margin-left: 70px;
+}
+.div-t {
+	margin-top: 1px;
+}
+.f-p {
+	margin-top: 50px;
+}
+.circulito1 {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin-left: -40px;
+	border: none;
+	-webkit-animation: color-change-5x 8s linear infinite alternate both;
+	animation: color-change-5x 8s linear infinite alternate both;
+}

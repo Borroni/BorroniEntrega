@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* textos */
+
+  .card-text-home {
+	color: $color_1;
+	font-family: $font-family_1;
+	padding-top: 5%;
+	padding-left: 30%;
+	text-align: center;
+	font-size: medium;
+	font-size: 25px;
+}
+.card-text-home-1 {
+	color: $color_1;
+	font-family: $font-family_1;
+	padding-top: 1%;
+	padding-left: 30%;
+	text-align: center;
+	font-size: medium;
+	font-size: 20px;
+}
+.card-title-home {
+	color: $color_2;
+	font-family: $font-family_2;
+	padding-top: 5%;
+	padding-left: 30%;
+	text-align: center;
+	font-size: 35px;
+}
+
+/* footer y header */
+
+.color-barra {
+	background-color: $background-color_1;
+}
+.color-texto {
+	color: $color_3;
+	text-align: center;
+	&:hover {
+		background-color: $background-color_2;
+		border-radius: 10px;
+	}
+}
+.logo {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin-left: 50px;
+}
+.logo-footer {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	margin-left: 50%;
+}
+.tex-fo {
+	margin-top: 18px;
+	font-size: 13px;
+}
+.logo-redes {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	margin: 10px;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.card {
+	padding-top: 130px;
+}
+.ul-redes {
+	padding-top: 20px;
+	padding-left: 100px;
+}
+.ul-redes1 {
+	padding-top: 20px;
+	padding-right: 50px;
+}
